@@ -1,10 +1,26 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: o;
+}
+
+.bold {
+    color: white;
+}
+
+.amount {
+
+    padding-left: 42.5%;
+    padding-right: 20%;
+
+
+
+
+
 }
 
 .donate-button {
     text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
+    background-image: linear-gradient(tomato, red);
     color: white;
     font-weight: 700;
     border-radius: 10px;
@@ -14,10 +30,25 @@ body {
 
 }
 
+.donate-button-2 {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 40px;
+    position: absolute;
+    left: 5.6in;
+    top: 11.4in;
+
+}
+
 .first-section {
     text-align: center;
     color: white;
     background-image: url(images/donation8.jpg);
+    background-size: cover;
+    height: 5in;
     padding-left: 20px;
     margin-bottom: 1.5in;
 
@@ -41,7 +72,8 @@ section {
     margin-right: 2.5%;
     padding-left: 5%;
     border-radius: 10px;
-    background-image: linear-gradient(gray);
+    color: rgb(167, 162, 162);
+    background-color: rgb(235, 235, 238);
 }
 
 .box-2 {
@@ -51,8 +83,9 @@ section {
     margin-right: 2.5%;
     padding-left: 5%;
     border-radius: 10px;
-    background-color: white;
-    border: 3px solid black;
+    background-color: rgb(243, 179, 179);
+    border: 3px solid rgb(248, 124, 124);
+    color: rgb(248, 124, 124)
 }
 
 .box-3 {
@@ -62,6 +95,8 @@ section {
     margin-right: 2.5%;
     padding-left: 5%;
     border-radius: 10px;
+    color: rgb(167, 162, 162);
+    background-color: rgb(235, 235, 238);
 
 }
 
@@ -72,6 +107,8 @@ section {
     margin-right: 2.5%;
     padding-left: 5%;
     border-radius: 10px;
+    background-color: rgb(235, 235, 238);
+    color: rgb(167, 162, 162);
 
 }
 
@@ -82,30 +119,31 @@ section {
     margin-right: 2.5%;
     padding-left: 5%;
     border-radius: 10px;
+    color: rgb(167, 162, 162);
+    background-color: rgb(235, 235, 238);
 }
 
 button {
-    margin-bottom: .4in;
-    width: 5in;
+    position: static;
+    left: 2.5in;
+    top: 10.1in
 }
 
 .third-part {
     position: absolute;
-    top: 75%;
-    left: 35%;
+    top: 25%;
+    left: 25%;
 
 }
 
-.donate-button-2 {
-    margin-bottom: 2in;
+
 }
 
 
 
-.donate-button-2 {
-    position: absolute;
-    top: 100%;
-    left: 30%;
+
+.button-2 {
+    align-items: center;
 }
 
 p {
@@ -113,6 +151,7 @@ p {
 }
 
 .part-5 {
+    margin-top: 1in;
     text-align: center;
 }
 
@@ -127,6 +166,7 @@ p {
     border: 15px solid white;
     padding: 50px;
     margin: 20px;
+    height: 700px;
 }
 
 .part-6-2 {
